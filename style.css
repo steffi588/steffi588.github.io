@@ -1,37 +1,9 @@
-:root {
-    --border-color: #070003;
-    --background: rgb(89, 0, 255);
+h1 {
+
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 50px 100px 150px; */
-    gap: 10px;
+.center{
+    text-align: center;
 }
-.grid-item {
-    background-color: #6F5252;
-    padding: 10px;
-    border: 1px solid #000;
+body {
+    background-color: lightslategray;
 }
-.flex-container {
-    margin-top: 100px;
-    outline: 1px red solid;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.flex-item {
-    background-color: var(--background);
-    padding: 10px;
-    border: 5px dashed var(--border-color);
-    margin: 5px;
-}
-.flex-item:nth-child(1) {
-    /* order: 2; */
-}
-/* .flex-item:nth-child(odd) {
-    background-color: beige;
-} */
-.middle {
-    /* background-color: beige; */
